@@ -13,12 +13,12 @@ var2 = 42
 
 # 2. Create a variable and add it to a string using a , and then +
 holiday = "Easter"
-print(holiday, "is comming")
+# print(holiday, "is comming")
 
 rain = "showers"
-print("April " + rain + " brings May Flowers")
+# print("April " + rain + " brings May Flowers")
 
-print(holiday, "is comming and April " + rain + " brings May flowers")
+# print(holiday, "is comming and April " + rain + " brings May flowers")
 
 
 # 3. Create variables and add them into a string using f-String, string.format(), and %-formating
@@ -27,14 +27,28 @@ age = 42
 location = "Berwick, PA"
 
 # f-string
-print(f"My name is {firstName}, I live in {location} and I am {age} years old")
+# print(f"My name is {firstName}, I live in {location} and I am {age} years old")
 
 # string.format()
-print("I live in {} and I am {} years old, my name is {}".format(location, age, firstName))
+# print("I live in {} and I am {} years old, my name is {}".format(location, age, firstName))
 
 #  %-formating
-print("I am %s years old.  My name is %s and I live in %s" % (age, firstName, location))
+# print("I am %s years old.  My name is %s and I live in %s" % (age, firstName, location))
 
 
 #  Create a variables and change the way the print using different string methods
+school = "coding dojo"
+allUpper = "Whatcha got cooking?"
+allLower = "SORRY FOR yelling I didn't mean it"
 
+print(school)
+print(allUpper)
+print(allLower)
+# .title()
+print(school.title())
+
+# .upper()
+print(allUpper.upper())
+
+# .lower()
+print(allLower.lower())
